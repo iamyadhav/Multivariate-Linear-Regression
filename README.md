@@ -21,6 +21,7 @@ Assign the values for x and y as requried.
 Create the LinearRegression model and predict the output
 
 # Program:
+```
 Developed by: Yadhav.G.P
 RegisterNumber: 23004895
 ```
@@ -37,7 +38,7 @@ predictedCO2=regr.predict([[3300,1300]])
 print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
 ``````
 # Output:
-
+``````
 ![Alt text](multi.jpeg)
 
 ## Result
