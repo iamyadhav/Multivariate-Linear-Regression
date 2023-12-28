@@ -24,7 +24,7 @@ Create the LinearRegression model and predict the output
 ```
 Developed by: Yadhav.G.P
 RegisterNumber: 23004895
-```
+
 import pandas as pd
 from sklearn import linear_model
 df=pd.read_csv('cars.csv')
@@ -36,7 +36,7 @@ print("Coefficient:",regr.coef_)
 print("Intercept:",regr.intercept_)
 predictedCO2=regr.predict([[3300,1300]])
 print("Predicted CO2 for the corresponding weight and volume",predictedCO2)
-``````
+``
 # Output:
 ``````
 ![Alt text](multi.jpeg)
